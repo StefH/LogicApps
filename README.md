@@ -3,7 +3,15 @@ Some LogicApps
 
 ## Info
 
-- Azurite must be running (because of `UseDevelopmentStorage=true`)
+### Azurite must be running (because of `UseDevelopmentStorage=true`)
+
+#### Option 1
+``` cmd
+azurite --silent --location c:\azurite --debug c:\azurite\debug.log
+```
+
+#### Option 2
+Open the command palette, press F1 in Visual Studio Code. And select `Azurite: Start`.
 
 
 
